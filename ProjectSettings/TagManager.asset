@@ -9,6 +9,7 @@ TagManager:
   - Bottle
   - Trap
   - Enemy
+  - Flag
   layers:
   - Default
   - TransparentFX

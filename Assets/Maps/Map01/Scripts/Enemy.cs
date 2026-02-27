@@ -1,10 +1,14 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 
 public class Enemy : MonoBehaviour
 {
+    private AudioManaGer audioMana;
+
     public enum EnemyState { Patrol, Chase, Attack, Dead }
     private EnemyState currentState;
     [SerializeField] private GameObject weaponHitbox;
+    [SerializeField] private Image healthFill;
 
     [Header("References")]
     public Transform player;
@@ -35,6 +39,8 @@ public class Enemy : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        audioMana = FindAnyObjectByType<AudioManaGer>();
+
 
         currentHealth = maxHealth;
         startPos = transform.position;
@@ -128,7 +134,7 @@ public class Enemy : MonoBehaviour
 
         anim.SetBool("isWalking", false);
         anim.SetTrigger("attack");
-
+        audioMana.playEnemyAttack();
         Invoke(nameof(ResetAttack), attackCooldown);
     }
 
@@ -145,10 +151,20 @@ public class Enemy : MonoBehaviour
         if (currentState == EnemyState.Dead) return;
 
         currentHealth -= dmg;
+        currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
         anim.SetTrigger("isHurt");
+        audioMana.playEnemyHurt();
+
+        UpdateHealthBar();  
 
         if (currentHealth <= 0)
             Die();
+    }
+    void UpdateHealthBar()
+    {
+        if (healthFill == null) return;
+
+        healthFill.fillAmount = (float)currentHealth / maxHealth;
     }
 
     void Die()
@@ -159,6 +175,7 @@ public class Enemy : MonoBehaviour
 
         anim.SetBool("isWalking", false);
         anim.SetTrigger("die");
+        audioMana.playEnemyDie();
 
         rb.bodyType = RigidbodyType2D.Kinematic;
         GetComponent<Collider2D>().enabled = false;

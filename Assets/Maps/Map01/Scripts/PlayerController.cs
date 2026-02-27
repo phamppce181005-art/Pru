@@ -1,14 +1,19 @@
-﻿using UnityEngine;
+﻿using UnityEditor;
+using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
+    private AudioManaGer audioMana;
     [Header("Movement")]
     [SerializeField] private float moveSpeed = 5f;
     [SerializeField] private float jumpForce = 12f;
     [SerializeField] private float slideSpeed = 8f;
     [SerializeField] private float slideTime = 0.5f;
     [SerializeField] private GameObject weaponHitbox;
+    [SerializeField] private Transform groundCheck;
+    [SerializeField] private float groundCheckRadius = 0.2f;
+    [SerializeField] private LayerMask groundLayer;
 
 
     [Header("Attack")]
@@ -37,11 +42,13 @@ public class PlayerController : MonoBehaviour
         anim = GetComponent<Animator>();
         gameManager = FindAnyObjectByType<GameManager>();
         weaponHitbox.SetActive(false);
+        audioMana = FindAnyObjectByType<AudioManaGer>();    
     }
 
     void Update()
     {
-        if (gameManager.IsGameOver()) return;
+        if (gameManager.IsGameOver()||gameManager.IsGameWin()) return;
+        CheckGround();
         HandleSlide();
         HandleComboTimeout();
         FlipPlayer();
@@ -58,7 +65,18 @@ public class PlayerController : MonoBehaviour
     }
 
     /* ================= INPUT ================= */
-
+    void CheckGround()
+    {
+        isGrounded = Physics2D.OverlapCircle(
+            groundCheck.position,
+            groundCheckRadius,
+            groundLayer
+        );
+        if (isGrounded && rb.linearVelocity.y <= 0f)
+        {
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0);
+        }
+    }
     public void OnMove(InputAction.CallbackContext context)
     {
         moveInput = context.ReadValue<Vector2>();
@@ -68,7 +86,7 @@ public class PlayerController : MonoBehaviour
     {
         if (!context.performed) return;
         if (!isGrounded) return;
-
+        audioMana.playJump();
         rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
         isGrounded = false;
     }
@@ -82,6 +100,7 @@ public class PlayerController : MonoBehaviour
         slideTimer = slideTime;
 
         float dir = transform.localScale.x;
+        audioMana.playSlide();
         rb.linearVelocity = new Vector2(dir * slideSpeed, rb.linearVelocity.y);
 
         anim.SetBool("isSliding", true);
@@ -105,6 +124,7 @@ public class PlayerController : MonoBehaviour
             comboStep = 1;
             anim.SetInteger("comboStep", comboStep);
             anim.SetTrigger("attack");
+            //audioMana.playAttack();
         }
         // ĐANG ĐÁNH → QUEUE ĐÒN KẾ
         else
@@ -184,17 +204,18 @@ public class PlayerController : MonoBehaviour
         anim.SetBool("isGrounded", isGrounded);
     }
 
-    void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("Ground"))
-        {
-            isGrounded = true;
-        }
-    }
+    //void OnCollisionEnter2D(Collision2D collision)
+    //{
+    //    if (collision.gameObject.CompareTag("Ground"))
+    //    {
+    //        isGrounded = true;
+    //    }
+    //}
 
 
     public void EnableHitbox()
     {
+        audioMana.playAttack();
         weaponHitbox.SetActive(true);
     }
 

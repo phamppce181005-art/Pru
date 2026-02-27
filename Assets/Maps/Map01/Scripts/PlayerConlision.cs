@@ -1,15 +1,18 @@
 ﻿using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class PlayerConlision : MonoBehaviour
 {
     private GameManager gameManager;
+    private AudioManaGer audioMana;
     [SerializeField] private Collider2D bodyCollider;
     private float lastHitTime;
     //[SerializeField] private float damageCooldown = 1f;
+    //private int chapter = 1;
 
     private void Awake()
     {
         gameManager = FindAnyObjectByType<GameManager>();
+        audioMana = FindAnyObjectByType<AudioManaGer>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -21,6 +24,7 @@ public class PlayerConlision : MonoBehaviour
         if (collision.CompareTag("Bottle"))
         {
             Destroy(collision.gameObject);
+            audioMana.playHealthBottle();
             gameManager.IncreaseHealth();
         }
         else if (collision.CompareTag("Trap"))
@@ -36,7 +40,21 @@ public class PlayerConlision : MonoBehaviour
         }
         else if (collision.CompareTag("Sea"))
         {
-            gameManager.DecreaseHealth(3);
+            gameManager.DecreaseHealth(6);
+        }
+        else if (collision.CompareTag("Flag"))
+        {
+            int currentIndex = SceneManager.GetActiveScene().buildIndex;
+
+            
+            if (currentIndex == 5)
+            {
+                gameManager.gameWin();
+            }
+            else
+            {
+                SceneManager.LoadScene(currentIndex + 1);
+            }
         }
     }
 
