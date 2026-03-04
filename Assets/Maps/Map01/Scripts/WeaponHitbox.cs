@@ -12,6 +12,10 @@ public class WeaponHitbox : MonoBehaviour
 
             if (enemy != null)
                 enemy.TakeDamage(damage);
+            Medusa medusa = other.GetComponent<Medusa>();
+
+            if (medusa != null)
+                medusa.TakeDamage(damage);
         }
     }
 }
