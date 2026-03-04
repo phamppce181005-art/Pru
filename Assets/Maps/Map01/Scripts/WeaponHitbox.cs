@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 public class WeaponHitbox : MonoBehaviour
 {
@@ -8,10 +8,19 @@ public class WeaponHitbox : MonoBehaviour
     {
         if (other.CompareTag("Enemy"))
         {
+            // Nếu là enemy thường
             Enemy enemy = other.GetComponent<Enemy>();
-
             if (enemy != null)
+            {
                 enemy.TakeDamage(damage);
+            }
+
+            // Nếu là boss
+            BossEnemy boss = other.GetComponent<BossEnemy>();
+            if (boss != null)
+            {
+                boss.TakeDamage(damage);
+            }
         }
     }
 }
