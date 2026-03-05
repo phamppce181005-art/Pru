@@ -1,0 +1,650 @@
+fileFormatVersion: 2
+guid: d8d0ad27e8c1bdc449fff8c897d2e3d2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9025971811784242963
+    second: CapMapChieu7_0
+  - first:
+      213: 4015035259958317230
+    second: CapMapChieu7_1
+  - first:
+      213: 7797246110334335794
+    second: CapMapChieu7_2
+  - first:
+      213: -5863304304202584706
+    second: CapMapChieu7_3
+  - first:
+      213: 1806824448996258036
+    second: CapMapChieu7_4
+  - first:
+      213: 3712648802699964299
+    second: CapMapChieu7_5
+  - first:
+      213: 8943359304707693675
+    second: CapMapChieu7_6
+  - first:
+      213: 5058771844339207760
+    second: CapMapChieu7_7
+  - first:
+      213: 2040626463786228894
+    second: CapMapChieu7_8
+  - first:
+      213: -2628534146565916817
+    second: CapMapChieu7_9
+  - first:
+      213: -3659665343638464242
+    second: CapMapChieu7_10
+  - first:
+      213: 7083959792041527516
+    second: CapMapChieu7_11
+  - first:
+      213: 1332617583403102433
+    second: CapMapChieu7_12
+  - first:
+      213: 8059393707753428241
+    second: CapMapChieu7_13
+  - first:
+      213: -3011915995115425166
+    second: CapMapChieu7_14
+  - first:
+      213: -4667998662954454295
+    second: CapMapChieu7_15
+  - first:
+      213: 1116011314742135216
+    second: CapMapChieu7_16
+  - first:
+      213: -1812605875290571890
+    second: CapMapChieu7_17
+  - first:
+      213: -3506081949735329020
+    second: CapMapChieu7_18
+  - first:
+      213: -5262504603759250230
+    second: CapMapChieu7_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CapMapChieu7_0
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1280
+        width: 340
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 317b61a8a81b24d70800000000000000
+      internalID: 9025971811784242963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CapMapChieu7_1
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 1550
+        width: 34
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea0db7edb4548b730800000000000000
+      internalID: 4015035259958317230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CapMapChieu7_2
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 1569
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23b36c89602653c60800000000000000
+      internalID: 7797246110334335794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CapMapChieu7_3
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 1550
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7d6cf9eccb51aea0800000000000000
+      internalID: -5863304304202584706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CapMapChieu7_4
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 1536
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f0b9ed6341231910800000000000000
+      internalID: 1806824448996258036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CapMapChieu7_5
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1525
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8fe5b46a6af58330800000000000000
+      internalID: 3712648802699964299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CapMapChieu7_6
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 1530
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6c59c757e13d1c70800000000000000
+      internalID: 8943359304707693675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CapMapChieu7_7
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 1538
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05e069d903e543640800000000000000
+      internalID: 5058771844339207760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CapMapChieu7_8
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 1501
+        width: 35
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9c5d3505f2c15c10800000000000000
+      internalID: 2040626463786228894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CapMapChieu7_9
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 1519
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6734f9ce12958bd0800000000000000
+      internalID: -2628534146565916817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CapMapChieu7_10
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 1487
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e091f9b72c1463dc0800000000000000
+      internalID: -3659665343638464242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CapMapChieu7_11
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 1505
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd809cff5e74f4260800000000000000
+      internalID: 7083959792041527516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CapMapChieu7_12
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 1472
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e07e20b1a86e7210800000000000000
+      internalID: 1332617583403102433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CapMapChieu7_13
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 1440
+        width: 29
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11559af60e7b8df60800000000000000
+      internalID: 8059393707753428241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CapMapChieu7_14
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 1451
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 272f3d93c568336d0800000000000000
+      internalID: -3011915995115425166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CapMapChieu7_15
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 1379
+        width: 91
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e2f99ab2ffe73fb0800000000000000
+      internalID: -4667998662954454295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CapMapChieu7_16
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1396
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b9858cb06edc7f00800000000000000
+      internalID: 1116011314742135216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CapMapChieu7_17
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 1398
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8bf48d5f8458d6e0800000000000000
+      internalID: -1812605875290571890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CapMapChieu7_18
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 1423
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 403ed90fa05e75fc0800000000000000
+      internalID: -3506081949735329020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CapMapChieu7_19
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 1426
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac47210e1f3d7f6b0800000000000000
+      internalID: -5262504603759250230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CapMapChieu7_0: 9025971811784242963
+      CapMapChieu7_1: 4015035259958317230
+      CapMapChieu7_10: -3659665343638464242
+      CapMapChieu7_11: 7083959792041527516
+      CapMapChieu7_12: 1332617583403102433
+      CapMapChieu7_13: 8059393707753428241
+      CapMapChieu7_14: -3011915995115425166
+      CapMapChieu7_15: -4667998662954454295
+      CapMapChieu7_16: 1116011314742135216
+      CapMapChieu7_17: -1812605875290571890
+      CapMapChieu7_18: -3506081949735329020
+      CapMapChieu7_19: -5262504603759250230
+      CapMapChieu7_2: 7797246110334335794
+      CapMapChieu7_3: -5863304304202584706
+      CapMapChieu7_4: 1806824448996258036
+      CapMapChieu7_5: 3712648802699964299
+      CapMapChieu7_6: 8943359304707693675
+      CapMapChieu7_7: 5058771844339207760
+      CapMapChieu7_8: 2040626463786228894
+      CapMapChieu7_9: -2628534146565916817
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

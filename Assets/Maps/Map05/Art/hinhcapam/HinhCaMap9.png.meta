@@ -1,0 +1,444 @@
+fileFormatVersion: 2
+guid: 98ab2881deb4059448e11a21689979e0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1406184125589872275
+    second: HinhCaMap9_0
+  - first:
+      213: 9091603535249876642
+    second: HinhCaMap9_1
+  - first:
+      213: -7048355212230947811
+    second: HinhCaMap9_2
+  - first:
+      213: 6502416876288241132
+    second: HinhCaMap9_3
+  - first:
+      213: -3991200052447016666
+    second: HinhCaMap9_4
+  - first:
+      213: -3552549195336231216
+    second: HinhCaMap9_5
+  - first:
+      213: 1056645409852450024
+    second: HinhCaMap9_6
+  - first:
+      213: 487591018885947516
+    second: HinhCaMap9_7
+  - first:
+      213: 1401927230792825812
+    second: HinhCaMap9_8
+  - first:
+      213: -4974397877896185773
+    second: HinhCaMap9_9
+  - first:
+      213: 1049109352053840009
+    second: HinhCaMap9_10
+  - first:
+      213: 252788564736826427
+    second: HinhCaMap9_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HinhCaMap9_0
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 979
+        width: 33
+        height: 17
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d612c61fcfa3c7ce0800000000000000
+      internalID: -1406184125589872275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HinhCaMap9_1
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 977
+        width: 6
+        height: 5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a62145fe3ddb2e70800000000000000
+      internalID: 9091603535249876642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HinhCaMap9_2
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 972
+        width: 12
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1c833c37463f2e90800000000000000
+      internalID: -7048355212230947811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HinhCaMap9_3
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 972
+        width: 55
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ced6aac92b93d3a50800000000000000
+      internalID: 6502416876288241132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HinhCaMap9_4
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 970
+        width: 24
+        height: 9
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6290066d2b86c98c0800000000000000
+      internalID: -3991200052447016666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HinhCaMap9_5
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 960
+        width: 39
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d652ec345fc2bec0800000000000000
+      internalID: -3552549195336231216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HinhCaMap9_6
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 944
+        width: 54
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e46dc3e665f9ae00800000000000000
+      internalID: 1056645409852450024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HinhCaMap9_7
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 941
+        width: 13
+        height: 5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c702e54c27544c600800000000000000
+      internalID: 487591018885947516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HinhCaMap9_8
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 927
+        width: 51
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4db7a508365a47310800000000000000
+      internalID: 1401927230792825812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HinhCaMap9_9
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 924
+        width: 66
+        height: 15
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3587a8c4c7367fab0800000000000000
+      internalID: -4974397877896185773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HinhCaMap9_10
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 934
+        width: 40
+        height: 7
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98895b3b56f2f8e00800000000000000
+      internalID: 1049109352053840009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HinhCaMap9_11
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 576
+        width: 289
+        height: 432
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3c5b6c3cd5128300800000000000000
+      internalID: 252788564736826427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 093bd67b92f187d479bf2335e4737a18
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.4000000059604645},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":9,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      HinhCaMap9_0: -1406184125589872275
+      HinhCaMap9_1: 9091603535249876642
+      HinhCaMap9_10: 1049109352053840009
+      HinhCaMap9_11: 252788564736826427
+      HinhCaMap9_2: -7048355212230947811
+      HinhCaMap9_3: 6502416876288241132
+      HinhCaMap9_4: -3991200052447016666
+      HinhCaMap9_5: -3552549195336231216
+      HinhCaMap9_6: 1056645409852450024
+      HinhCaMap9_7: 487591018885947516
+      HinhCaMap9_8: 1401927230792825812
+      HinhCaMap9_9: -4974397877896185773
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -11,6 +11,7 @@ TagManager:
   - Enemy
   - Flag
   - Ladder
+  - EnemyProjectile
   layers:
   - Default
   - TransparentFX

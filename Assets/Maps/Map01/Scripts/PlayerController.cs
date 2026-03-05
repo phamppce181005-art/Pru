@@ -11,7 +11,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float slideSpeed = 8f;
     [SerializeField] private float slideTime = 0.5f;
     [SerializeField] private GameObject weaponHitbox;
-    [SerializeField] private Transform groundCheck;
+    [SerializeField] private Transform groundCheckLeft;
+    [SerializeField] private Transform groundCheckRight;
     [SerializeField] private float groundCheckRadius = 0.2f;
     [SerializeField] private LayerMask groundLayer;
 
@@ -55,7 +56,7 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         if (gameManager.IsGameOver()||gameManager.IsGameWin()) return;
-        CheckGround();
+       
         HandleSlide();
         HandleComboTimeout();
         HandleClimb();
@@ -66,6 +67,7 @@ public class PlayerController : MonoBehaviour
 
     void FixedUpdate()
     {
+        CheckGround();
         if (!isSliding && !isGrabbing)
         {
             rb.linearVelocity = new Vector2(moveInput.x * moveSpeed, rb.linearVelocity.y);
@@ -75,15 +77,19 @@ public class PlayerController : MonoBehaviour
     /* ================= INPUT ================= */
     void CheckGround()
     {
-        isGrounded = Physics2D.OverlapCircle(
-            groundCheck.position,
+        bool leftGrounded = Physics2D.OverlapCircle(
+           groundCheckLeft.position,
+           groundCheckRadius,
+           groundLayer
+       );
+
+        bool rightGrounded = Physics2D.OverlapCircle(
+            groundCheckRight.position,
             groundCheckRadius,
             groundLayer
         );
-        if (isGrounded && rb.linearVelocity.y <= 0f)
-        {
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0);
-        }
+
+        isGrounded = leftGrounded || rightGrounded;
     }
     public void OnMove(InputAction.CallbackContext context)
     {
@@ -189,7 +195,7 @@ public class PlayerController : MonoBehaviour
         }
         else
         {
-            rb.gravityScale = 3f; // hoặc giá trị gravity cũ của bạn
+            rb.gravityScale = 5f; // hoặc giá trị gravity cũ của bạn
             isClimbing = false;
         }
 
