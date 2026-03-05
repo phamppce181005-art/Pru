@@ -13,6 +13,7 @@ public class WeaponHitbox : MonoBehaviour
             if (enemy != null)
             {
                 enemy.TakeDamage(damage);
+
             }
 
             // Nếu là boss
@@ -21,6 +22,12 @@ public class WeaponHitbox : MonoBehaviour
             {
                 boss.TakeDamage(damage);
             }
+
+            Medusa medusa = other.GetComponent<Medusa>();
+
+            if (medusa != null)
+                medusa.TakeDamage(damage);
+
         }
     }
 }

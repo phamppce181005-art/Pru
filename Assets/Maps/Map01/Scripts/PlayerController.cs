@@ -16,6 +16,12 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private LayerMask groundLayer;
 
 
+    [Header("Climb")]
+    [SerializeField] private float climbSpeed = 4f;
+
+    private bool isGrabbing;
+    private bool isClimbing;
+
     [Header("Attack")]
     [SerializeField] private float comboResetTime = 0.8f;
 
@@ -27,6 +33,7 @@ public class PlayerController : MonoBehaviour
     private bool isSliding;
 
     private float slideTimer;
+
 
     // ===== COMBO SYSTEM =====
     private int comboStep = 0;                 // 0 = idle
@@ -51,6 +58,7 @@ public class PlayerController : MonoBehaviour
         CheckGround();
         HandleSlide();
         HandleComboTimeout();
+        HandleClimb();
         FlipPlayer();
         UpdateAnimator();
         
@@ -58,7 +66,7 @@ public class PlayerController : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (!isSliding)
+        if (!isSliding && !isGrabbing)
         {
             rb.linearVelocity = new Vector2(moveInput.x * moveSpeed, rb.linearVelocity.y);
         }
@@ -160,6 +168,35 @@ public class PlayerController : MonoBehaviour
             ResetCombo();
         }
     }
+    void HandleClimb()
+    {
+        if (isGrabbing)
+        {
+            rb.gravityScale = 0f;
+
+            float vertical = moveInput.y;
+
+            if (vertical != 0)
+            {
+                isClimbing = true;
+                rb.linearVelocity = new Vector2(0, vertical * climbSpeed);
+            }
+            else
+            {
+                isClimbing = false;
+                rb.linearVelocity = Vector2.zero;
+            }
+        }
+        else
+        {
+            rb.gravityScale = 3f; // hoặc giá trị gravity cũ của bạn
+            isClimbing = false;
+        }
+
+        anim.SetBool("isGrabbing", isGrabbing);
+        anim.SetBool("isClimbing", isClimbing);
+        anim.SetFloat("climbY", moveInput.y);
+    }
 
     // 🎯 GỌI TỪ Animation Event (CUỐI Attack1 / Attack2 / Attack3)
     public void EndAttack()
@@ -226,5 +263,33 @@ public class PlayerController : MonoBehaviour
     public void OnPlayerDeathAnimationEnd()
     {
         gameManager.gameOver();
+    }
+
+    // ===== LADDER TRIGGER =====
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Ladder") && !isGrounded)
+        {
+            isGrabbing = true;
+
+            rb.linearVelocity = Vector2.zero;
+
+            // Snap vào giữa thang
+            transform.position = new Vector3(
+                collision.transform.position.x,
+                transform.position.y,
+                transform.position.z
+            );
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Ladder"))
+        {
+            isGrabbing = false;
+            isClimbing = false;
+        }
     }
 }
