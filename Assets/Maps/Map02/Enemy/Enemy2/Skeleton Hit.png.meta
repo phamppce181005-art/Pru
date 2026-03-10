@@ -1,31 +1,31 @@
 fileFormatVersion: 2
-guid: 3914d973b16685d4fa8f6ea481661f29
+guid: 6ee7d2f0a69834e4d8871f9114004f18
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4944230376442633554
-    second: Run_0
+      213: -273567318796562241
+    second: Skeleton Hit_0
   - first:
-      213: -2274363484027164459
-    second: Run_1
+      213: 4277271011309529139
+    second: Skeleton Hit_1
   - first:
-      213: 8284087734974297348
-    second: Run_2
+      213: -1537884627087384292
+    second: Skeleton Hit_2
   - first:
-      213: 5304202850863732263
-    second: Run_3
+      213: 8452754394787171160
+    second: Skeleton Hit_3
   - first:
-      213: 2833043080597125133
-    second: Run_4
+      213: 6079654374805429708
+    second: Skeleton Hit_4
   - first:
-      213: -2217414122262695004
-    second: Run_5
+      213: 3860408454011024614
+    second: Skeleton Hit_5
   - first:
-      213: -4440497016933152808
-    second: Run_6
+      213: -8501204524192146682
+    second: Skeleton Hit_6
   - first:
-      213: 8676454946275842879
-    second: Run_7
+      213: -8738580348800268814
+    second: Skeleton Hit_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -121,177 +121,177 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Run_0
+      name: Skeleton Hit_0
       rect:
         serializedVersion: 2
-        x: 61
-        y: 51
-        width: 27
-        height: 38
+        x: 0
+        y: 0
+        width: 30
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 25d1f8be45f6d9440800000000000000
-      internalID: 4944230376442633554
+      spriteID: fb099f419f7143cf0800000000000000
+      internalID: -273567318796562241
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Run_1
+      name: Skeleton Hit_1
       rect:
         serializedVersion: 2
-        x: 212
-        y: 48
-        width: 26
-        height: 39
+        x: 30
+        y: 0
+        width: 30
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5d8e07c1676df60e0800000000000000
-      internalID: -2274363484027164459
+      spriteID: 3382e25a25beb5b30800000000000000
+      internalID: 4277271011309529139
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Run_2
+      name: Skeleton Hit_2
       rect:
         serializedVersion: 2
-        x: 363
-        y: 49
-        width: 25
-        height: 39
+        x: 60
+        y: 0
+        width: 30
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 405305b67edf6f270800000000000000
-      internalID: 8284087734974297348
+      spriteID: c112ce8641658aae0800000000000000
+      internalID: -1537884627087384292
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Run_3
+      name: Skeleton Hit_3
       rect:
         serializedVersion: 2
-        x: 513
-        y: 51
-        width: 25
-        height: 38
+        x: 90
+        y: 0
+        width: 30
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 726d856d3605c9940800000000000000
-      internalID: 5304202850863732263
+      spriteID: 85b49e266573e4570800000000000000
+      internalID: 8452754394787171160
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Run_4
+      name: Skeleton Hit_4
       rect:
         serializedVersion: 2
-        x: 663
-        y: 48
-        width: 26
-        height: 39
+        x: 120
+        y: 0
+        width: 30
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d08be54fbadf05720800000000000000
-      internalID: 2833043080597125133
+      spriteID: ccd5d6741754f5450800000000000000
+      internalID: 6079654374805429708
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Run_5
+      name: Skeleton Hit_5
       rect:
         serializedVersion: 2
-        x: 813
-        y: 48
-        width: 25
-        height: 39
+        x: 150
+        y: 0
+        width: 30
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4a3f89aaa992a31e0800000000000000
-      internalID: -2217414122262695004
+      spriteID: 6e4fd3d190de29530800000000000000
+      internalID: 3860408454011024614
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Run_6
+      name: Skeleton Hit_6
       rect:
         serializedVersion: 2
-        x: 963
-        y: 49
-        width: 25
-        height: 39
+        x: 180
+        y: 0
+        width: 30
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8d784876d7f2062c0800000000000000
-      internalID: -4440497016933152808
+      spriteID: 60b559cc687a50a80800000000000000
+      internalID: -8501204524192146682
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Run_7
+      name: Skeleton Hit_7
       rect:
         serializedVersion: 2
-        x: 1113
-        y: 51
-        width: 26
-        height: 38
+        x: 210
+        y: 0
+        width: 30
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f3bd376cdc5f86870800000000000000
-      internalID: 8676454946275842879
+      spriteID: 2f50d84c8735ab680800000000000000
+      internalID: -8738580348800268814
       vertices: []
       indices: 
       edges: []
@@ -300,7 +300,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: a9edb840e8fa9c64595b02920feedac5
     internalID: 0
     vertices: []
     indices: 
@@ -308,16 +308,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":30.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Run_0: 4944230376442633554
-      Run_1: -2274363484027164459
-      Run_2: 8284087734974297348
-      Run_3: 5304202850863732263
-      Run_4: 2833043080597125133
-      Run_5: -2217414122262695004
-      Run_6: -4440497016933152808
-      Run_7: 8676454946275842879
+      Skeleton Hit_0: -273567318796562241
+      Skeleton Hit_1: 4277271011309529139
+      Skeleton Hit_2: -1537884627087384292
+      Skeleton Hit_3: 8452754394787171160
+      Skeleton Hit_4: 6079654374805429708
+      Skeleton Hit_5: 3860408454011024614
+      Skeleton Hit_6: -8501204524192146682
+      Skeleton Hit_7: -8738580348800268814
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

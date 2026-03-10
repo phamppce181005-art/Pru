@@ -1,43 +1,40 @@
 fileFormatVersion: 2
-guid: 24935c40ecc47c74094c1daa9dd73a5b
+guid: d2afa5ed776ca1e4eaafa2a9d0e5a128
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1007748646741086085
-    second: ChatGPT Image 10_28_19 6 thg 3, 2026_0
+      213: 7928858964255100155
+    second: Skeleton Idle_0
   - first:
-      213: 3753260248669440029
-    second: ChatGPT Image 10_28_19 6 thg 3, 2026_1
+      213: -289379152601194012
+    second: Skeleton Idle_1
   - first:
-      213: 956196951275519547
-    second: ChatGPT Image 10_28_19 6 thg 3, 2026_2
+      213: -8331204611373963175
+    second: Skeleton Idle_2
   - first:
-      213: -5077428548214592338
-    second: ChatGPT Image 10_28_19 6 thg 3, 2026_3
+      213: 5974531914738200450
+    second: Skeleton Idle_3
   - first:
-      213: 9023546074929414657
-    second: ChatGPT Image 10_28_19 6 thg 3, 2026_4
+      213: 1900126310482141809
+    second: Skeleton Idle_4
   - first:
-      213: 4914912057784072050
-    second: ChatGPT Image 10_28_19 6 thg 3, 2026_5
+      213: -9007221444457188966
+    second: Skeleton Idle_5
   - first:
-      213: -825761325927078981
-    second: ChatGPT Image 10_28_19 6 thg 3, 2026_6
+      213: 6361432402118329833
+    second: Skeleton Idle_6
   - first:
-      213: 1575432444022202111
-    second: ChatGPT Image 10_28_19 6 thg 3, 2026_7
+      213: 1571032212639168507
+    second: Skeleton Idle_7
   - first:
-      213: 171040900772606928
-    second: ChatGPT Image 10_28_19 6 thg 3, 2026_8
+      213: 7611122742130972421
+    second: Skeleton Idle_8
   - first:
-      213: -8503945687046880459
-    second: ChatGPT Image 10_28_19 6 thg 3, 2026_9
+      213: 5180031473007828922
+    second: Skeleton Idle_9
   - first:
-      213: -7488153852772918414
-    second: ChatGPT Image 10_28_19 6 thg 3, 2026_10
-  - first:
-      213: 717015584930656026
-    second: ChatGPT Image 10_28_19 6 thg 3, 2026_11
+      213: -5784503621931760760
+    second: Skeleton Idle_10
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -70,7 +67,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -84,7 +81,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -133,265 +130,243 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ChatGPT Image 10_28_19 6 thg 3, 2026_0
+      name: Skeleton Idle_0
       rect:
         serializedVersion: 2
-        x: 11
+        x: 0
         y: 0
-        width: 773
-        height: 1024
+        width: 24
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b70fd10f1f1c302f0800000000000000
-      internalID: -1007748646741086085
+      spriteID: bfcc8961837f80e60800000000000000
+      internalID: 7928858964255100155
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ChatGPT Image 10_28_19 6 thg 3, 2026_1
+      name: Skeleton Idle_1
       rect:
         serializedVersion: 2
-        x: 829
-        y: 1
-        width: 695
-        height: 1023
+        x: 24
+        y: 0
+        width: 24
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d18498f7f42461430800000000000000
-      internalID: 3753260248669440029
+      spriteID: 4e16dc3a13bebfbf0800000000000000
+      internalID: -289379152601194012
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ChatGPT Image 10_28_19 6 thg 3, 2026_2
+      name: Skeleton Idle_2
       rect:
         serializedVersion: 2
-        x: 895
-        y: 614
-        width: 10
-        height: 9
+        x: 48
+        y: 0
+        width: 24
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b3eb610af08154d00800000000000000
-      internalID: 956196951275519547
+      spriteID: 95865fbeb8d916c80800000000000000
+      internalID: -8331204611373963175
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ChatGPT Image 10_28_19 6 thg 3, 2026_3
+      name: Skeleton Idle_3
       rect:
         serializedVersion: 2
-        x: 1000
-        y: 612
-        width: 11
-        height: 13
+        x: 72
+        y: 0
+        width: 24
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: eaced3303a95989b0800000000000000
-      internalID: -5077428548214592338
+      spriteID: 28f643d3f1dc9e250800000000000000
+      internalID: 5974531914738200450
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ChatGPT Image 10_28_19 6 thg 3, 2026_4
+      name: Skeleton Idle_4
       rect:
         serializedVersion: 2
-        x: 36
-        y: 447
-        width: 101
-        height: 116
+        x: 96
+        y: 0
+        width: 24
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 102c98aa8531a3d70800000000000000
-      internalID: 9023546074929414657
+      spriteID: 17269a4efca9e5a10800000000000000
+      internalID: 1900126310482141809
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ChatGPT Image 10_28_19 6 thg 3, 2026_5
+      name: Skeleton Idle_5
       rect:
         serializedVersion: 2
-        x: 306
-        y: 449
-        width: 99
-        height: 112
+        x: 120
+        y: 0
+        width: 24
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 277f08ae976453440800000000000000
-      internalID: 4914912057784072050
+      spriteID: a9139dd81dbeff280800000000000000
+      internalID: -9007221444457188966
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ChatGPT Image 10_28_19 6 thg 3, 2026_6
+      name: Skeleton Idle_6
       rect:
         serializedVersion: 2
-        x: 703
-        y: 501
-        width: 11
-        height: 11
+        x: 144
+        y: 0
+        width: 24
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bb36cdaf27e4a84f0800000000000000
-      internalID: -825761325927078981
+      spriteID: 9e54ceeb019584850800000000000000
+      internalID: 6361432402118329833
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ChatGPT Image 10_28_19 6 thg 3, 2026_7
+      name: Skeleton Idle_7
       rect:
         serializedVersion: 2
-        x: 756
-        y: 449
-        width: 186
-        height: 115
+        x: 168
+        y: 0
+        width: 24
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ffe9199f57f0dd510800000000000000
-      internalID: 1575432444022202111
+      spriteID: bf7bd05497d6dc510800000000000000
+      internalID: 1571032212639168507
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ChatGPT Image 10_28_19 6 thg 3, 2026_8
+      name: Skeleton Idle_8
       rect:
         serializedVersion: 2
-        x: 1202
-        y: 503
-        width: 7
-        height: 7
+        x: 192
+        y: 0
+        width: 24
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0d33d940bc8af5200800000000000000
-      internalID: 171040900772606928
+      spriteID: 5071d9afec320a960800000000000000
+      internalID: 7611122742130972421
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ChatGPT Image 10_28_19 6 thg 3, 2026_9
+      name: Skeleton Idle_9
       rect:
         serializedVersion: 2
-        x: 1313
-        y: 448
-        width: 211
-        height: 142
+        x: 216
+        y: 0
+        width: 24
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5330b56147aebf980800000000000000
-      internalID: -8503945687046880459
+      spriteID: abf99f10e2b23e740800000000000000
+      internalID: 5180031473007828922
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ChatGPT Image 10_28_19 6 thg 3, 2026_10
+      name: Skeleton Idle_10
       rect:
         serializedVersion: 2
-        x: 702
-        y: 490
-        width: 7
-        height: 7
+        x: 240
+        y: 0
+        width: 24
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 27b5ffdaebbb41890800000000000000
-      internalID: -7488153852772918414
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ChatGPT Image 10_28_19 6 thg 3, 2026_11
-      rect:
-        serializedVersion: 2
-        x: 1194
-        y: 478
-        width: 9
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a1fe53620e953f900800000000000000
-      internalID: 717015584930656026
+      spriteID: 8830ccc7a9059bfa0800000000000000
+      internalID: -5784503621931760760
       vertices: []
       indices: 
       edges: []
@@ -400,7 +375,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5daea5e3d2a47c3409150ba0a4bcb780
     internalID: 0
     vertices: []
     indices: 
@@ -408,20 +383,21 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":24.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      ChatGPT Image 10_28_19 6 thg 3, 2026_0: -1007748646741086085
-      ChatGPT Image 10_28_19 6 thg 3, 2026_1: 3753260248669440029
-      ChatGPT Image 10_28_19 6 thg 3, 2026_10: -7488153852772918414
-      ChatGPT Image 10_28_19 6 thg 3, 2026_11: 717015584930656026
-      ChatGPT Image 10_28_19 6 thg 3, 2026_2: 956196951275519547
-      ChatGPT Image 10_28_19 6 thg 3, 2026_3: -5077428548214592338
-      ChatGPT Image 10_28_19 6 thg 3, 2026_4: 9023546074929414657
-      ChatGPT Image 10_28_19 6 thg 3, 2026_5: 4914912057784072050
-      ChatGPT Image 10_28_19 6 thg 3, 2026_6: -825761325927078981
-      ChatGPT Image 10_28_19 6 thg 3, 2026_7: 1575432444022202111
-      ChatGPT Image 10_28_19 6 thg 3, 2026_8: 171040900772606928
-      ChatGPT Image 10_28_19 6 thg 3, 2026_9: -8503945687046880459
+      Skeleton Idle_0: 7928858964255100155
+      Skeleton Idle_1: -289379152601194012
+      Skeleton Idle_10: -5784503621931760760
+      Skeleton Idle_2: -8331204611373963175
+      Skeleton Idle_3: 5974531914738200450
+      Skeleton Idle_4: 1900126310482141809
+      Skeleton Idle_5: -9007221444457188966
+      Skeleton Idle_6: 6361432402118329833
+      Skeleton Idle_7: 1571032212639168507
+      Skeleton Idle_8: 7611122742130972421
+      Skeleton Idle_9: 5180031473007828922
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
